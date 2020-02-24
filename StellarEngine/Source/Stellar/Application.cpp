@@ -1,3 +1,4 @@
+#include "stlrpch.h"
 #include "Application.h"
 #include "Stellar/Events/KeyEvent.h"
 #include "Stellar/Log.h"
@@ -19,7 +20,6 @@ namespace Stellar
 		{
 			STLR_TRACE(Key);
 		}
-		STLR_TRACE(Key);
 		while (true);
 	}
 }

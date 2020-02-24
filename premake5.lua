@@ -15,6 +15,9 @@ project "Stellar"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "stlrpch.h"
+    pchsource "StellarEngine/Source/stlrpch.cpp"
+
     files
     {
         "StellarEngine/Source/**.h",

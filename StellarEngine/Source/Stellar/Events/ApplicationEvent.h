@@ -1,7 +1,7 @@
 #pragma once
 #include "Stellar/Events/Event.h"
 
-#include <sstream>
+
 
 namespace Stellar
 {

@@ -1,8 +1,7 @@
 #pragma once
 #include "Stellar/Core/Core.h"
 
-#include <string>
-#include <functional>
+
 
 namespace Stellar
 {

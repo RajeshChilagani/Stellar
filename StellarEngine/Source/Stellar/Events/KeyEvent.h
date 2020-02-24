@@ -1,6 +1,6 @@
 #pragma once
 #include "Stellar/Events/Event.h"
-#include <sstream>
+
 namespace Stellar
 {
 	class STELLAR_API KeyEvent :public Event

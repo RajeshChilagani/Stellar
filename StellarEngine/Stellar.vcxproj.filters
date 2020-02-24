@@ -37,6 +37,7 @@
     <ClInclude Include="Source\Stellar\Log.h">
       <Filter>Stellar</Filter>
     </ClInclude>
+    <ClInclude Include="Source\stlrpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Stellar\Application.cpp">
@@ -45,5 +46,6 @@
     <ClCompile Include="Source\Stellar\Log.cpp">
       <Filter>Stellar</Filter>
     </ClCompile>
+    <ClCompile Include="Source\stlrpch.cpp" />
   </ItemGroup>
 </Project>
