@@ -1,4 +1,6 @@
 #include "Application.h"
+#include "Stellar/Events/KeyEvent.h"
+#include "Stellar/Log.h"
 
 namespace Stellar
 {
@@ -12,6 +14,12 @@ namespace Stellar
 	}
 	void Application::Run()
 	{
+		KeyPressedEvent Key(23, 1);
+		if (Key.IsInCategory(EventCategoryInput))
+		{
+			STLR_TRACE(Key);
+		}
+		STLR_TRACE(Key);
 		while (true);
 	}
 }

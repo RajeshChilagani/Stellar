@@ -1,36 +1,49 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Stellar">
+      <UniqueIdentifier>{1C75D80E-8854-57AA-916C-E280FDCABD0B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Stellar\Core">
+      <UniqueIdentifier>{F42A3346-E08D-C2EA-8913-FBA075558E6D}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Stellar\Events">
+      <UniqueIdentifier>{80C9CBA4-6C97-BFAA-552B-30D141989B0F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\Stellar\Core\Core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="Source\Stellar.h" />
     <ClInclude Include="Source\Stellar\Application.h">
-      <Filter>Header Files</Filter>
+      <Filter>Stellar</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Stellar.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Source\Stellar\Core\Core.h">
+      <Filter>Stellar\Core</Filter>
     </ClInclude>
     <ClInclude Include="Source\Stellar\EntryPoint.h">
-      <Filter>Header Files</Filter>
+      <Filter>Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stellar\Events\ApplicationEvent.h">
+      <Filter>Stellar\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stellar\Events\Event.h">
+      <Filter>Stellar\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stellar\Events\KeyEvent.h">
+      <Filter>Stellar\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stellar\Events\MouseEvent.h">
+      <Filter>Stellar\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stellar\Log.h">
+      <Filter>Stellar</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Stellar\Application.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stellar\Log.cpp">
+      <Filter>Stellar</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
